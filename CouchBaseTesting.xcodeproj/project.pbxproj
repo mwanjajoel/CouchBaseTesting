@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F978682E142A42A15802121 /* libPods-CouchBaseTesting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D1546B059B56D911F14CA8 /* libPods-CouchBaseTesting.a */; };
 		A8F5FB3D1BF272DF00C11F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5FB3C1BF272DF00C11F21 /* AppDelegate.swift */; };
 		A8F5FB3F1BF272DF00C11F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5FB3E1BF272DF00C11F21 /* ViewController.swift */; };
 		A8F5FB421BF272E000C11F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F5FB401BF272E000C11F21 /* Main.storyboard */; };
 		A8F5FB441BF272E000C11F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F5FB431BF272E000C11F21 /* Assets.xcassets */; };
 		A8F5FB471BF272E000C11F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F5FB451BF272E000C11F21 /* LaunchScreen.storyboard */; };
+		A8F5FB4F1BF272FB00C11F21 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A8F5FB4E1BF272FB00C11F21 /* Podfile */; };
+		A8F5FB551BF27C5300C11F21 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5FB541BF27C5200C11F21 /* TestTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262BB2AB47BD726F87826FA7 /* Pods-CouchBaseTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouchBaseTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-CouchBaseTesting/Pods-CouchBaseTesting.release.xcconfig"; sourceTree = "<group>"; };
+		9AF60FAA202909F9981FE1B4 /* Pods-CouchBaseTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouchBaseTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouchBaseTesting/Pods-CouchBaseTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D1546B059B56D911F14CA8 /* libPods-CouchBaseTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CouchBaseTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5FB391BF272DF00C11F21 /* CouchBaseTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchBaseTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5FB3C1BF272DF00C11F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F5FB3E1BF272DF00C11F21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,9 @@
 		A8F5FB431BF272E000C11F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F5FB461BF272E000C11F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8F5FB481BF272E000C11F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F5FB4E1BF272FB00C11F21 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8F5FB501BF2747800C11F21 /* CouchBaseTesting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CouchBaseTesting-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8F5FB541BF27C5200C11F21 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F978682E142A42A15802121 /* libPods-CouchBaseTesting.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4F4BC8AC9D65139D07D2550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AF60FAA202909F9981FE1B4 /* Pods-CouchBaseTesting.debug.xcconfig */,
+				262BB2AB47BD726F87826FA7 /* Pods-CouchBaseTesting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8F5FB301BF272DF00C11F21 = {
 			isa = PBXGroup;
 			children = (
+				A8F5FB4E1BF272FB00C11F21 /* Podfile */,
 				A8F5FB3B1BF272DF00C11F21 /* CouchBaseTesting */,
 				A8F5FB3A1BF272DF00C11F21 /* Products */,
+				A4F4BC8AC9D65139D07D2550 /* Pods */,
+				FE1293B097CAD378B42BB05D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +78,22 @@
 			children = (
 				A8F5FB3C1BF272DF00C11F21 /* AppDelegate.swift */,
 				A8F5FB3E1BF272DF00C11F21 /* ViewController.swift */,
+				A8F5FB541BF27C5200C11F21 /* TestTableViewController.swift */,
 				A8F5FB401BF272E000C11F21 /* Main.storyboard */,
 				A8F5FB431BF272E000C11F21 /* Assets.xcassets */,
 				A8F5FB451BF272E000C11F21 /* LaunchScreen.storyboard */,
 				A8F5FB481BF272E000C11F21 /* Info.plist */,
+				A8F5FB501BF2747800C11F21 /* CouchBaseTesting-Bridging-Header.h */,
 			);
 			path = CouchBaseTesting;
+			sourceTree = "<group>";
+		};
+		FE1293B097CAD378B42BB05D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1546B059B56D911F14CA8 /* libPods-CouchBaseTesting.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8F5FB4B1BF272E000C11F21 /* Build configuration list for PBXNativeTarget "CouchBaseTesting" */;
 			buildPhases = (
+				94C762338E3C057698E4646E /* Check Pods Manifest.lock */,
 				A8F5FB351BF272DF00C11F21 /* Sources */,
 				A8F5FB361BF272DF00C11F21 /* Frameworks */,
 				A8F5FB371BF272DF00C11F21 /* Resources */,
+				BFFC08DDBC28FAB21D31245F /* Embed Pods Frameworks */,
+				38C20BC3F9E9FAA3005EC411 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +125,7 @@
 		A8F5FB311BF272DF00C11F21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "A23 Labs";
 				TargetAttributes = {
@@ -123,11 +159,60 @@
 			files = (
 				A8F5FB471BF272E000C11F21 /* LaunchScreen.storyboard in Resources */,
 				A8F5FB441BF272E000C11F21 /* Assets.xcassets in Resources */,
+				A8F5FB4F1BF272FB00C11F21 /* Podfile in Resources */,
 				A8F5FB421BF272E000C11F21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38C20BC3F9E9FAA3005EC411 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouchBaseTesting/Pods-CouchBaseTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C762338E3C057698E4646E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFC08DDBC28FAB21D31245F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouchBaseTesting/Pods-CouchBaseTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8F5FB351BF272DF00C11F21 /* Sources */ = {
@@ -136,6 +221,7 @@
 			files = (
 				A8F5FB3F1BF272DF00C11F21 /* ViewController.swift in Sources */,
 				A8F5FB3D1BF272DF00C11F21 /* AppDelegate.swift in Sources */,
+				A8F5FB551BF27C5300C11F21 /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +330,30 @@
 		};
 		A8F5FB4C1BF272E000C11F21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF60FAA202909F9981FE1B4 /* Pods-CouchBaseTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CouchBaseTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.a23labs.CouchBaseTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CouchBaseTesting/CouchBaseTesting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A8F5FB4D1BF272E000C11F21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262BB2AB47BD726F87826FA7 /* Pods-CouchBaseTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CouchBaseTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.a23labs.CouchBaseTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CouchBaseTesting/CouchBaseTesting-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +376,7 @@
 				A8F5FB4D1BF272E000C11F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
